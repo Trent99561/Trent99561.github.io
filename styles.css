@@ -184,15 +184,32 @@
     }
 
     #mobile-menu.is-active .bar:nth-child(1) {
-        transform: translate(8px) rotate(45deg);
+        transform: translateY(8px) rotate(45deg);
     }
 
     #mobile-menu.is-active .bar:nth-child(3) {
-        transform: translate(-8px) rotate(-45deg);
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+
+    .navbar__container {
+        justify-content: center;
+
+    }
+
+    #navbar__logo {
+        margin: 10px;
+    }
+
+    .text {
+
+        margin: 10px;
+
     }
 }
 
 
+/* Main Section CSS */
 .main {
     background-color: #141414;
 }
@@ -292,6 +309,18 @@
 
 
 @media screen and (max-width: 768px) {
+    .navbar__container {
+        justify-content: center;
+}
+
+    #navbar__logo {
+        margin: 10px;
+    }
+
+    .text {
+
+        margin: 10px;
+    }
     .main__container {
         display: grid;
         grid-template-columns: auto;
@@ -341,6 +370,16 @@
     .main__btn {
         padding: 12px 36px;
         margin: 2.5rem 0;
+    }
+
+    #logo {
+        font-size: 2rem;
+    }
+
+    #text {
+        font-size: 2rem;
+        margin-left: 20px;
+    
     }
 }
 
@@ -468,7 +507,9 @@
     align-items: center;
     cursor: pointer;
     text-decoration: none;
-    font-size: 2rem
+    font-size: 2rem;
+    max-width: 50px;
+    max-height: 50px;
 }
 
 .footer__links {

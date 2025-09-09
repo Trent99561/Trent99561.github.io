@@ -203,9 +203,22 @@
 
     .text {
 
-        margin: 10px;
-        padding-right: 25px;
+        margin: 0px;
+        padding-right: 0px;
+        font-size: 2rem;
+        
+    }
 
+    .logo-wrapper {
+        display: flex;
+        align-items: center;
+        margin-right: 15px; /* Moves the logo+text away from the left edge of the screen */
+    }
+
+    .logo {
+        max-height: 70px;
+        width: auto;
+        margin-right: 8px;
     }
 }
 
@@ -380,7 +393,7 @@
     #text {
         font-size: 2rem;
         margin-left: 20px;
-        padding-right: 25px;
+
     }
 }
 
@@ -624,4 +637,22 @@
         padding: 10px;
         width: 100%;
     }
+}
+
+/* Group logo image and text */
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    max-height: 40px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.text {
+    font-size: 1.5rem;
+    color: #fff;
+    white-space: nowrap;
 }

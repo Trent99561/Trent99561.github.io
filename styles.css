@@ -518,20 +518,7 @@ html {
 
 
 @media screen and (max-width: 480px) {
-    
-    .services {
-        background: red !important;
-    }
-
-    .main {
-        background: blue !important;
-    }
-
-    .footer__container {
-        background: green !important;
-    }
-}
-    /* #main__img {
+    #main__img {
     width: 85%;
     max-width: 300px;
     height: auto;
@@ -546,8 +533,7 @@ html {
         flex-direction: column;
     }
     .services {
-        height: auto;
-        padding-bottom: 2rem;
+        min-height: auto;
     }
 
     .services h1 {
@@ -559,8 +545,8 @@ html {
     }
     .footer__container {
     padding: 2rem 0;
-    } */
-/* } */
+    }
+}
 @media screen and (max-width: 768px) {
     #main__img {
     width: 100%;

@@ -518,24 +518,7 @@ html {
 
 
 @media screen and (max-width: 480px) {
-    * {
-        margin: 0 !important;
-        padding: 0 !important;
-    }
-
-    .main,
-    .main__container,
-    .services,
-    .footer__container {
-        margin: 0 !important;
-        padding: 0 !important;
-        height: auto !important;
-        min-height: unset !important;
-    }
-
-    .main__container {
-        display: block !important;
-    }
+    
     .services {
         background: red !important;
     }

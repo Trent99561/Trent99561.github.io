@@ -529,6 +529,8 @@ html {
         height: auto;
         align-content: start;
         justify-content: start;
+        display: flex;
+        flex-direction: column;
     }
     .services {
         height: auto;

@@ -531,6 +531,9 @@ html {
         flex-direction: column;
         padding: 3rem 20px;
     }
+    .main__content {
+        margin-bottom: 1rem;
+    }
     .services {
         min-height: auto;
     }

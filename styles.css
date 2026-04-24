@@ -520,7 +520,7 @@ html {
 @media screen and (max-width: 480px) {
     .services {
         height: auto;
-        margin-bottom: -10pxs;
+        margin-bottom: -10px;
     }
 
     .services h1 {

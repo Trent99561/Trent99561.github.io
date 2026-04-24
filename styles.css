@@ -518,6 +518,12 @@ html {
 
 
 @media screen and (max-width: 480px) {
+    #main__img {
+    width: 80%;
+    max-width: 200px;
+    height: auto;
+
+    }
     .main__container {
         height: auto;
         min-height: 100vh;
@@ -556,6 +562,9 @@ html {
     .services__card button {
         position: static;
         margin-bottom: 10px;
+    }
+    .services h1 {
+        font-size: 1.5rem;
     }
 
     .services__card button {

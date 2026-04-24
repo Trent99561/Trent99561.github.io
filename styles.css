@@ -536,6 +536,17 @@ html {
     .main__container {
         display: block !important;
     }
+    .services {
+        background: red !important;
+    }
+
+    .main {
+        background: blue !important;
+    }
+
+    .footer__container {
+        background: green !important;
+    }
 }
     /* #main__img {
     width: 85%;

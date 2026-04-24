@@ -518,9 +518,14 @@ html {
 
 
 @media screen and (max-width: 480px) {
+    .main__container {
+        height: auto;
+        min-height: 100vh;
+        align-content: start;
+    }
     .services {
         height: auto;
-        margin-bottom: -10px;
+        
     }
 
     .services h1 {
@@ -534,7 +539,7 @@ html {
 @media screen and (max-width: 768px) {
     #main__img {
     width: 80%;
-    max-width: 200px;
+    max-width: 150px;
     height: auto;
     }
 

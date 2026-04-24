@@ -504,21 +504,11 @@ html {
 
 
 @media screen and (max-width: 960px) {
-    /* .services {
-        height: 1600px;
-    }
-
-    .services h1 {
-        font-size: 2rem;
-        margin-top: 12rem;
-    } */
-    /* 🔹 Make main image smaller */
     #main__img {
         width: 60%;
         height: auto;
     }
 
-    /* 🔹 Make "Some Of My Favorite Projects" smaller */
     .services h1 {
         font-size: 2rem;
         margin-top: 2rem;
@@ -530,7 +520,7 @@ html {
 @media screen and (max-width: 480px) {
     .services {
         height: auto;
-        padding-bottom: 2rem;
+        margin-bottom: -10pxs;
     }
 
     .services h1 {

@@ -518,9 +518,28 @@ html {
 
 
 @media screen and (max-width: 480px) {
-    #main__img {
-    /* width: 80%;
-    max-width: 300px; */
+    * {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .main,
+    .main__container,
+    .services,
+    .footer__container {
+        margin: 0 !important;
+        padding: 0 !important;
+        height: auto !important;
+        min-height: unset !important;
+    }
+
+    .main__container {
+        display: block !important;
+    }
+}
+    /* #main__img {
+    width: 85%;
+    max-width: 300px;
     height: auto;
 
     }
@@ -546,8 +565,8 @@ html {
     }
     .footer__container {
     padding: 2rem 0;
-    }
-}
+    } */
+/* } */
 @media screen and (max-width: 768px) {
     #main__img {
     width: 100%;

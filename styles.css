@@ -525,13 +525,14 @@ html {
 
     }
     .main__container {
-        height: auto;
         min-height: 100vh;
+        height: auto;
         align-content: start;
+        justify-content: start;
     }
     .services {
         height: auto;
-        
+        padding-bottom: 2rem;
     }
 
     .services h1 {
@@ -540,6 +541,9 @@ html {
 
     .services__card {
         width: 300px;
+    }
+    .footer__container {
+    padding: 2rem 0;
     }
 }
 @media screen and (max-width: 768px) {

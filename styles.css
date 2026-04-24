@@ -520,7 +520,7 @@ html {
 @media screen and (max-width: 480px) {
     #main__img {
     width: 80%;
-    max-width: 200px;
+    max-width: 300px;
     height: auto;
 
     }
@@ -544,8 +544,8 @@ html {
 }
 @media screen and (max-width: 768px) {
     #main__img {
-    width: 80%;
-    max-width: 150px;
+    width: 100%;
+    max-width: 160px;
     height: auto;
     }
 

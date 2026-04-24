@@ -525,12 +525,11 @@ html {
 
     }
     .main__container {
-        min-height: 100vh;
+        min-height: auto;
         height: auto;
-        align-content: start;
-        justify-content: start;
         display: flex;
         flex-direction: column;
+        padding: 3rem 20px;
     }
     .services {
         min-height: auto;

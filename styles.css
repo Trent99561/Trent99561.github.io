@@ -504,13 +504,25 @@ html {
 
 
 @media screen and (max-width: 960px) {
-    .services {
+    /* .services {
         height: 1600px;
     }
 
     .services h1 {
         font-size: 2rem;
         margin-top: 12rem;
+    } */
+    /* 🔹 Make main image smaller */
+    #main__img {
+        width: 60%;
+        height: auto;
+    }
+
+    /* 🔹 Make "Some Of My Favorite Projects" smaller */
+    .services h1 {
+        font-size: 2rem;
+        margin-top: 2rem;
+        text-align: center;
     }
 }
 
@@ -528,7 +540,33 @@ html {
         width: 300px;
     }
 }
+@media screen and (max-width: 768px) {
+    #main__img {
+    width: 80%;
+    max-width: 200px;
+    height: auto;
+    }
 
+    .services__card {
+        height: auto;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    .services__card h2,
+    .services__card p,
+    .services__card button {
+        position: static;
+        margin-bottom: 10px;
+    }
+
+    .services__card button {
+        margin-top: 10px;
+        align-self: flex-start;
+    }
+}
 
 /* Footer*/
 

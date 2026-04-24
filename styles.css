@@ -528,6 +528,11 @@ html {
 
 
 @media screen and (max-width: 480px) {
+    .main__container {
+        height: auto;
+        min-height: 100vh;
+        align-content: start;
+    }
     .services {
         height: auto;
     }
